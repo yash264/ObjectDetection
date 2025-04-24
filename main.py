@@ -41,9 +41,9 @@ while True:
 
             # Check to avoid index error
             if classId < len(classNames):
-                label = classNames[classId].upper()
+                label = classNames[classId-1].upper()
             else:
-                label = f"{classId-5}: {classNames[classId].upper()}"  # fallback label
+                label = f"{classId}: {classNames[classId-1].upper()}"  # fallback label
 
             cv2.rectangle(img, box, color=(0, 255, 0), thickness=2)
             cv2.putText(img, label, (box[0]+10, box[1]+30),
