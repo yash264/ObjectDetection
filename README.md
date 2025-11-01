@@ -25,7 +25,7 @@ The system identifies objects, draws bounding boxes, and displays class names wi
 
 ## 🚀 Video Tutorial
 
- [Watch It](https://youtu.be/Rk5TgP_4Bhw)
+ https://drive.google.com/file/d/1Pa3SGQQPfh_xQ_XdL14a9WaKvBISITF2/view?usp=sharing
 
 ---
 
@@ -35,13 +35,6 @@ The system identifies objects, draws bounding boxes, and displays class names wi
 - A deep learning–based object detection framework.  
 - Detects objects in a **single forward pass**, making it extremely fast for real-time use.  
 - Predicts bounding boxes and class probabilities directly from feature maps at multiple scales.
-
-### 🔸 MobileNet
-- A lightweight, efficient CNN architecture optimized for **mobile and edge devices**.  
-- Designed for speed and low computational cost while maintaining good accuracy.
-
-### 🔸 SSD MobileNet
-- Combines SSD’s fast detection with MobileNet’s compact architecture, ideal for real-time object detection on CPU or GPU.
 
 ---
 
